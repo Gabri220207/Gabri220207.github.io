@@ -1,0 +1,72 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FAD0C4, #A18CD1);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 30px;
+    color: #FF4E50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Cursive', sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #555;
+    line-height: 1.8;
+}
+
+#resultado {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #FF4E50;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #FF4E50;
+    color: white;
+    font-size: 1.1em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF2A3C;
+}
+
+img {
+    margin-top: 40px;
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do poema */
+.poema {
+    font-style: italic;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-family: 'Georgia', serif;
+    color: #6C4A5C;
+}
